@@ -11,6 +11,10 @@ This is a template that can be used to stand up a docker project with some best 
 
 ```du -sh .``` - show me the size of this directory
 
+```ls -la``` - show me everything in this directory but detailed
+
+```rm -f *``` - remove all the files in this directory and force it 
+
 
 # Handy Docker Commands
 
@@ -65,6 +69,8 @@ From solution directory, if you want build the dockerfiles, you have to do it wi
 
 [Best Practices for Docker Files](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 
+[Design Patterns for Docker Usage](https://gotocon.com/dl/goto-berlin-2015/slides/MatthiasLbken_PatternsInAContainerizedWorld.pdf)
+
 [Dockerizing with CI AND CD](https://radu-matTeamcity.com/blog/aspnet-core-docker-azure/)
 
 [Sharing Volumes Between Docker Containers](https://www.digitalocean.com/community/tutorials/how-to-share-data-between-docker-containers)
@@ -80,8 +86,6 @@ From solution directory, if you want build the dockerfiles, you have to do it wi
 [Multi-Stage Builds with DOTNET Core](https://hub.docker.com/r/microsoft/dotnet/)
 
 [Dot Net Core and Node JS](https://developers.filiosoft.com/docker/dotnetcore-node)
-
-[Raneto in Docker](https://github.com/appsecco/raneto-docker)
 
 [Multi-Container Application](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/multi-container-applications-docker-compose)
 
